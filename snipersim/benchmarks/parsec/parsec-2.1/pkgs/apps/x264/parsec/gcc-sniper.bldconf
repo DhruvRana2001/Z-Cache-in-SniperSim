@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# gcc-sniper.bldconf - configuration file for PARSEC
+CC="${HOOKS_CC} -no-pie"
+source ${PARSECDIR}/pkgs/apps/x264/parsec/gcc-hooks.bldconf

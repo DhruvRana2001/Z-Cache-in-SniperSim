@@ -1,1 +1,5 @@
 *.sqlite3 filter=lfs diff=lfs merge=lfs -text
+benchmarks/ filter=lfs diff=lfs merge=lfs -text
+bencmarks/ filter=lfs diff=lfs merge=lfs -text
+bencmarks/* filter=lfs diff=lfs merge=lfs -text
+snipersim/benchmarks/parsec/parsec-2.1/pkgs/kernels/dedup/inputs/* filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,40 @@
+PARSEC Compile Information
+==========================
+Package 'ssl'
+Built on Thu Dec 14 17:19:01 EST 2023
+
+Configure arguments: threads no-zlib no-shared --prefix=/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/./pkgs/libs/ssl/inst/amd64-linux.gcc-sniper
+
+Environment modifications: PATH="/usr/bin:/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/bin:/home/dhruv/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Foundation/jdk-8.0.302.8-hotspot/bin:/mnt/c/Program Files/Oculus/Support/oculus-runtime:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/libnvvp:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.2.0/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDNN/v8.6.0.163/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2023b/runtime/win64:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Program Files/Pandoc/:/mnt/c/Program Files/Git LFS:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Azure Data Studio/bin:/mnt/c/Users/dhruv/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/dhruv/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/dhruv/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/dhruv/AppData/Roaming/npm:/mnt/c/Users/dhruv/AppData/Local/Programs/Fiddler:/mnt/c/Users/dhruv/.dotnet/tools:/mnt/c/texlive/2022/bin/win32:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/Azure Data Studio/bin:/snap/bin"
+
+CC: gcc
+Version: gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+CFLAGS: -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/tools/hooks -I/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/include -DENABLE_PARMACS
+
+CXX: g++
+Version: g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+CXXFLAGS: -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/tools/hooks -I/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/include
+
+CCAS: 
+Version: 
+CCASFLAGS: 
+
+LD: g++
+Version: GNU ld (GNU Binutils for Ubuntu) 2.30
+Copyright (C) 2018 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+LDFLAGS: -L/usr/lib64 -L/usr/lib -L/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/tools/hooks -lhooks_base -lrt -pthread
+
+JAVAC: /usr/bin/javac
+Version: 
+JFLAGS: 
+
+[EOF]

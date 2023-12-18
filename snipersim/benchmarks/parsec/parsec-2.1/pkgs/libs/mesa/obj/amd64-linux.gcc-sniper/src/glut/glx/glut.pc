@@ -1,0 +1,11 @@
+prefix=/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/./pkgs/libs/mesa/inst/amd64-linux.gcc-sniper
+exec_prefix=${prefix}
+libdir=/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/./pkgs/libs/mesa/inst/amd64-linux.gcc-sniper/lib
+includedir=/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/./pkgs/libs/mesa/inst/amd64-linux.gcc-sniper/include
+
+Name: glut
+Description: Mesa OpenGL Utility Toolkit library
+Requires: gl glu
+Version: 3.7.1
+Libs: -L${libdir} -lglut
+Cflags: -I${includedir}

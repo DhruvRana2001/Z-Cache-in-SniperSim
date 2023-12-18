@@ -1,0 +1,40 @@
+PARSEC Compile Information
+==========================
+Package 'hooks'
+Built on Thu Dec 14 15:54:17 EST 2023
+
+Configure arguments:  --prefix=/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/./pkgs/libs/hooks/inst/amd64-linux.gcc-sniper
+
+Environment modifications: 
+
+CC: gcc
+Version: gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+CFLAGS: -O3 -funroll-loops -fprefetch-loop-arrays -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/tools/hooks -I/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/include -DENABLE_PARMACS
+
+CXX: g++
+Version: g++ (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+CXXFLAGS: -O3 -funroll-loops -fprefetch-loop-arrays -fpermissive -fno-exceptions -static-libgcc -Wl,--hash-style=both,--as-needed -DPARSEC_VERSION=2.1 -DENABLE_PARSEC_HOOKS -I/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/include -I/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/tools/hooks -I/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/include
+
+CCAS: 
+Version: 
+CCASFLAGS: 
+
+LD: g++
+Version: GNU ld (GNU Binutils for Ubuntu) 2.30
+Copyright (C) 2018 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+LDFLAGS: -L/usr/lib64 -L/usr/lib -L/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/pkgs/libs/hooks/inst/amd64-linux.gcc-sniper/lib -uparmacs_roi_end -uparmacs_roi_start -L/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/tools/hooks -lhooks_base -lrt -pthread
+
+JAVAC: /usr/bin/javac
+Version: 
+JFLAGS: 
+
+[EOF]

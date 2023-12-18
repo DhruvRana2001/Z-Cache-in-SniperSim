@@ -1,0 +1,11 @@
+prefix=/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/./pkgs/libs/mesa/inst/amd64-linux.gcc-sniper
+exec_prefix=${prefix}
+libdir=/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/./pkgs/libs/mesa/inst/amd64-linux.gcc-sniper/lib
+includedir=/home/dhruv/Comp_Arch_Projects/FinalProject/snipersim/benchmarks/parsec/parsec-2.1/./pkgs/libs/mesa/inst/amd64-linux.gcc-sniper/include
+
+Name: glu
+Description: Mesa OpenGL Utility library
+Requires: gl
+Version: 7.2.0
+Libs: -L${libdir} -lGLU
+Cflags: -I${includedir}
