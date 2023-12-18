@@ -1,0 +1,35 @@
+95611      [1506671]  [ 0]  [core_manager.cc     :  65]  Initialize thread for core 0x1950ff0 (0)
+95920      [1506671]  [ 0]  [thread_manager.cc   : 129]  Setting status[0] -> RUNNING
+1098489    [1506671]  [ 0]  [syscall_model.cc    :  68]  Got Syscall: 0
+1098530    [1506671]  [ 0]  [thread_manager.cc   : 341]  Core(0) -> STALLED
+1098543    [1506671]  [ 0]  [syscall_model.cc    : 298]  Syscall finished
+1106028    [1506671]  [ 0]  [thread_manager.cc   : 370]  Core(0) -> RUNNING
+1106051    [1506671]  [ 0]  [thread_manager.cc   : 370]  Core(0) -> RUNNING
+1132005    [1506671]  [ 0]  [syscall_model.cc    :  68]  Got Syscall: 0
+1132021    [1506671]  [ 0]  [thread_manager.cc   : 341]  Core(0) -> STALLED
+1132030    [1506671]  [ 0]  [syscall_model.cc    : 298]  Syscall finished
+1132074    [1506671]  [ 0]  [thread_manager.cc   : 370]  Core(0) -> RUNNING
+1132081    [1506671]  [ 0]  [thread_manager.cc   : 370]  Core(0) -> RUNNING
+1135098    [1506671]  [ 0]  [syscall_model.cc    :  68]  Got Syscall: 0
+1135110    [1506671]  [ 0]  [thread_manager.cc   : 341]  Core(0) -> STALLED
+1135119    [1506671]  [ 0]  [syscall_model.cc    : 298]  Syscall finished
+1135179    [1506671]  [ 0]  [thread_manager.cc   : 370]  Core(0) -> RUNNING
+1135188    [1506671]  [ 0]  [thread_manager.cc   : 370]  Core(0) -> RUNNING
+1691261    [1506671]  [ 0]  [barrier_sync_server.:  73]  Received 'SIM_BARRIER_WAIT' from Core(0), Time(100013500000)
+1691277    [1506671]  [ 0]  [barrier_sync_server.: 243]  Sending 'BARRIER_RELEASE'
+1691304    [1506671]  [ 0]  [barrier_sync_server.: 287]  m_next_barrier_time updated to (100113500000)
+1765819    [1506671]  [ 0]  [syscall_model.cc    :  68]  Got Syscall: 1
+1765833    [1506671]  [ 0]  [syscall_model.cc    : 298]  Syscall finished
+1775305    [1506671]  [ 0]  [syscall_model.cc    :  68]  Got Syscall: 1
+1775319    [1506671]  [ 0]  [syscall_model.cc    : 298]  Syscall finished
+1802697    [1506671]  [ 0]  [syscall_model.cc    :  68]  Got Syscall: 0
+1802714    [1506671]  [ 0]  [thread_manager.cc   : 341]  Core(0) -> STALLED
+1802723    [1506671]  [ 0]  [syscall_model.cc    : 298]  Syscall finished
+1813140    [1506671]  [ 0]  [thread_manager.cc   : 370]  Core(0) -> RUNNING
+1813156    [1506671]  [ 0]  [thread_manager.cc   : 370]  Core(0) -> RUNNING
+1813208    [1506671]  [ 0]  [syscall_model.cc    :  68]  Got Syscall: 1
+1813215    [1506671]  [ 0]  [syscall_model.cc    : 298]  Syscall finished
+1859327    [1506671]  [ 0]  [shmem_perf_model.cc :  23]  setElapsedTime: thread(0), time(189104500000)
+1859341    [1506671]  [ 0]  [core.cc             : 318]  Time(189104500000), READ - ADDR(0x98f245f8), data_size(4), START
+1859345    [1506671]  [ 0]  [core.cc             : 360]  Start InitiateSharedMemReq: ADDR(0x98f245c0), offset(56), curr_size(4)
+1859414    [1506671]  [ 0]  [cache_cntlr.cc      : 397]  processMemOpFromCore(), lock_signal(1), mem_op_type(1), ca_address(0x98f245c0)

@@ -1,0 +1,3 @@
+93381      [1506668]  [ 2]* [sim_thread.cc       :  27]  Sim thread starting...
+93396      [1506668]  [ 2]* [network.cc          :  79]  Entering netPullFromTransport
+93399      [1506668]  [ 2]* [smtransport.cc      : 109]  attempting recv -- this: 0x2a5dc60

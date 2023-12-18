@@ -1,0 +1,31 @@
+#!/usr/bin/env python2
+
+import sys, os, time, subprocess
+
+
+benchmark_suite = "parsec" #Options : parsec and SPLASH (could get only two working)
+input_size = "simdev" #Options : test, simsmall, simmedium, simlarge, simdev
+num_of_threads = 32
+
+path_to_scripts = os.path.dirname(__file__)
+relative_path_to_sniper = "../snipersim"
+path_to_sniper = os.path.join(path_to_scripts,relative_path_to_sniper)
+
+benchmark_apps = ["blackscholes","freqmine","swaptions"]
+benchmark_kernel = ["canneal","streamcluster","fluidanimate"]
+benchmarks = benchmark_apps + benchmark_kernel
+
+print(benchmarks)
+
+ways = [4,8,16,32]
+# execute set-associative cache configuration
+for benchmark in benchmark_apps: # Run for each benchmark
+    for way in ways: # Run for each way
+        print("\n[SCRIPT] Executing Benhcmark {} for {}-way L2 cache\n".format(benchmark,way))
+        
+        arguments = " ".join(["-p", "{}-{}".format(benchmark_suite,benchmark), "-i", "{}".format(input_size) , "-d" ,"../results/set_associative/{}way/{}".format(way,benchmark), "-c", "gainestown.cfg", "-c", "{}/set-cache.cfg".format(path_to_scripts), "-g--perf_model/l2_cache/associativity={}".format(way), "-n", "{}".format(num_of_threads) , "--viz", "--power"])
+        command = "{}/benchmarks/run-sniper {}".format(path_to_sniper,arguments)
+
+        result = subprocess.check_call(command,shell=True)
+
+print("[SCRIPT DONE]")

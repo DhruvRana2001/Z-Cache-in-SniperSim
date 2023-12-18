@@ -1,0 +1,32 @@
+0          [1506664]  [  ]  [simulator.cc        : 132]  In Simulator ctor.
+5252       [1506664]  [  ]  [core_manager.cc     :  24]  Starting CoreManager Constructor.
+5839       [1506664]  [  ]  [core.cc             :  84]  Core ctor for: 0
+5920       [1506664]  [  ]  [smtransport.cc      :  37]  Created node: 0x19a3dd0 on id: 0
+7928       [1506664]  [  ]  [network.cc          :  42]  Initialized.
+7978       [1506664]  [  ]  [core.cc             :  99]  instantiated memory manager model
+39609      [1506664]  [  ]  [core.cc             :  84]  Core ctor for: 1
+39652      [1506664]  [  ]  [smtransport.cc      :  37]  Created node: 0x29e25c0 on id: 1
+39700      [1506664]  [  ]  [network.cc          :  42]  Initialized.
+39706      [1506664]  [  ]  [core.cc             :  99]  instantiated memory manager model
+40622      [1506664]  [  ]  [core.cc             :  84]  Core ctor for: 2
+40656      [1506664]  [  ]  [smtransport.cc      :  37]  Created node: 0x2a5dc60 on id: 2
+40701      [1506664]  [  ]  [network.cc          :  42]  Initialized.
+40707      [1506664]  [  ]  [core.cc             :  99]  instantiated memory manager model
+41685      [1506664]  [  ]  [core.cc             :  84]  Core ctor for: 3
+41718      [1506664]  [  ]  [smtransport.cc      :  37]  Created node: 0x2add690 on id: 3
+41763      [1506664]  [  ]  [network.cc          :  42]  Initialized.
+41768      [1506664]  [  ]  [core.cc             :  99]  instantiated memory manager model
+42658      [1506664]  [  ]  [core_manager.cc     :  31]  Finished CoreManager Constructor.
+93069      [1506664]  [  ]  [sim_thread_manager.c:  28]  Starting 4 threads.
+93081      [1506664]  [  ]  [sim_thread_manager.c:  37]  Starting thread 0
+93084      [1506664]  [  ]  [pthread_thread.cc   :  25]  Creating thread at func: 0x480330, arg: 0x2c3d8d8
+93160      [1506664]  [  ]  [sim_thread_manager.c:  37]  Starting thread 1
+93166      [1506664]  [  ]  [pthread_thread.cc   :  25]  Creating thread at func: 0x480330, arg: 0x2c3d8e8
+93218      [1506664]  [  ]  [sim_thread_manager.c:  37]  Starting thread 2
+93223      [1506664]  [  ]  [pthread_thread.cc   :  25]  Creating thread at func: 0x480330, arg: 0x2c3d8f8
+93277      [1506664]  [  ]  [sim_thread_manager.c:  37]  Starting thread 3
+93285      [1506664]  [  ]  [pthread_thread.cc   :  25]  Creating thread at func: 0x480330, arg: 0x2c3d908
+93372      [1506664]  [  ]  [sim_thread_manager.c:  48]  Threads started: 2.
+94620      [1506664]  [  ]  [pthread_thread.cc   :  25]  Creating thread at func: 0x480330, arg: 0x1949540
+95148      [1506664]  [  ]  [pthread_thread.cc   :  25]  Creating thread at func: 0x480330, arg: 0x2c5a960
+95262      [1506671]  [  ]  [thread_manager.cc   : 102]  onThreadStart(0)
